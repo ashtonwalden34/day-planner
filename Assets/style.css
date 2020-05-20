@@ -58,26 +58,30 @@ body {
     border-radius: 15px;
     height: 50px;
     width: 100%;
-    border: solid red 3px;
   }
 
   .timeBlock{
-    border-right: 1px solid black;
+    border: 1px solid black;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: #06AED5;
     color: white;
     width: 90px;
+    
   }
 
 
-  .saveBtn {
-    border-left: 1px solid black;
+  .saveBlock {
+    border: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #06AED5;
     color: white;
     width: 90px;
+  }
+
+  .taskBlock{
+    border: solid black 1px;
   }
   
   .saveBtn i:hover {
@@ -89,3 +93,10 @@ body {
     padding-top: 15px;
     padding-bottom: 30px;
   }
+
+  .userTask{
+    color: white;
+    border: none;
+    width: 90%;
+    text-align: center;
+  };
